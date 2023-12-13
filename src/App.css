@@ -204,5 +204,37 @@ input {
   flex-direction: column;
   gap: 5px;
 }
+}
+.containers-details {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
 
+.distance {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid black;
+  padding-right: 20px;
+  font-size:30px;
+}
+
+.driving-time {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  font-size:30px;
+}
+
+.distance p,
+.driving-time p {
+  margin: 5px 0;
+}
+
+.text{
+  color: grey;
+  font-size: 25px;
 }
